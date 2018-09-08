@@ -56,7 +56,9 @@
       flex-direction: column;
       width: 17rem;
       height: 100vh;
-      border-right: 2px rgba(255, 255, 255, 0.2) solid;
+      border-right: 1px rgba(255, 255, 255, 0.2) solid;
+      background-color: rgba(0, 0, 0, 0.603);
+      background: solid;
     }
     #sideNav .navbar-brand {
       display: -webkit-box;
@@ -99,8 +101,7 @@
 
 .App-logo {
     position: relative;
-    height: 50px;
-    margin-left: 5px;
+    height: 120px;
 
 }
   
