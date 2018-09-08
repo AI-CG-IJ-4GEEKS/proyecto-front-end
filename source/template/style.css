@@ -3,32 +3,21 @@
   width: 100vw;
 }
 
-
-
-
 .App-intro {
   font-size: large;
   color: white;
-  margin-left: 17rem;
+  margin-left: 5rem;
   text-align: left;
 }
 
-body{
-  background-color: grey;
-  background-image:url(../img/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-}
-
-hr{
-    background-color: white;
-}
 
 .nav-item .nav-link{
     color: white;
     /*text-decoration-line: none;*/
+}
+
+.page-footer{
+  bottom: 0;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -54,7 +43,7 @@ hr{
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 17rem;
+    width: inherit;
     height: 100vh;
     border-right: 2px rgba(255, 255, 255, 0.2) solid;
   }
@@ -106,8 +95,8 @@ hr{
 
 
 .overlay {
-  height: inherit;
-  width: inherit;
+  height: 100%;
+  width: 100%;
   left:0;
   top:0;
   background: rgba(0, 0, 0, 0.603);
