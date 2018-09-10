@@ -8,8 +8,21 @@ body{
     min-height: 80vh;
 }
 
+#homeli{
+    margin-top: 7em;
+}
+
 hr{
     background-color: rgba(255, 255, 255, 0.514);
+}
+
+#logo{
+    width: 10em;
+    height: 6em;
+    background-image: url('../img/logo.png');
+    background-size: 10em;
+    background-position: top;
+    background-repeat: none;
 }
 
 #navbar-wrapper{
