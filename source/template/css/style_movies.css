@@ -1,0 +1,24 @@
+#contenido .container .row .jumbotron h1{
+    color: white;
+}
+
+#contenido .container .row .jumbotron{
+    text-align: left;
+    color: rgb(253, 250, 250);
+    background-image: url('../img/star-wars-poster-4k-af.jpg');
+    background-size: cover;
+}
+
+#contenido .container .row .jumbotron p{
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 1em;
+    border-radius: 6pt;
+}
+
+#lista-de-personajes-movies li{
+    display: inline-block;
+}
+
+#lista-de-personajes-movies li::before{
+    content: '-';
+}
