@@ -1,0 +1,7 @@
+.imagen-personajes{
+    max-width: 20em;
+    max-height: 15em;
+    position: relative;
+    float: left;
+    margin: 0 1em 1em 0;
+}

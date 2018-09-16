@@ -111,3 +111,12 @@ body{
 .my-4{
   color: white;
 }
+
+#logo{
+  width: 10em;
+  height: 6em;
+  background-image: url('../img/logo.png');
+  background-size: 10em;
+  background-position: top;
+  background-repeat: none;
+}
