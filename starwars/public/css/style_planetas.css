@@ -1,0 +1,122 @@
+body{
+    background-color: grey;
+    background-image:url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+  }
+
+ 
+
+  .nav-item .nav-link{
+      color: white;
+      text-decoration-line: none;
+  }
+
+
+    
+    
+.App-logo {
+    position: relative;
+    height: 120px;
+  }
+
+
+  
+
+  .overlay {
+    height: inherit;
+    width: inherit;
+    left:0;
+    top:0;
+    background: rgba(0, 0, 0, 0.603);
+    background-attachment: fixed;
+
+}
+
+/*.col-9  {
+  margin-top: 10px;
+  position: fixed;
+
+  box-align: right;
+}*/
+
+.nav {
+  margin-top: 10px;
+  /*position: fixed;*/
+  float: right;
+  /*width: 10px;*/
+  
+}
+
+/*.col-3 {
+  position: fixed;
+}
+
+.form-control {
+  width: 100px;
+}*/
+  
+#navi {
+  position: relative;
+  float: right;
+}
+
+#navbar-wrap {
+  position: relative;
+}
+
+/*#cajaFija {
+  position: fixed;
+}*/
+
+#contenido2{
+  margin-top: 10px;
+}
+
+#navbar-wrapper {
+  margin-bottom: 10px;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.card-body{
+  background-color: black;
+}
+
+.card {
+  border: none;
+  border-bottom: white;
+  color: white;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+#starLogo {
+  width: 100px;
+
+}
+
+#menu-toggle{
+  float: left;
+}
+
+.my-4{
+  color: white;
+}
+
+#logo{
+  width: 10em;
+  height: 6em;
+  background-image: url('../img/logo.png');
+  background-size: 10em;
+  background-position: top;
+  background-repeat: none;
+}
