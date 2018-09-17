@@ -37,12 +37,12 @@ class Movies extends Component {
                     <p>Director : {movies.director}</p>
                     <p>Producer(s): {movies.producer}</p>
                     <p class="lead">
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target={"#"+movies.episode_id}aria-expanded="false" aria-controls="collapseExample">
                             Characters in the movie
                         </button>
                     </p>
-                      <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
+                      <div class="collapse" id={movies.episode_id}>
+                        <div class=" card-body">
                             <ul id="lista-de-personajes-movies">
                               <li>Nombre de Personaje</li>
                               <li>Nombre de Personaje</li>
